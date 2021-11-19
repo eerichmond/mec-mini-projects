@@ -4,13 +4,13 @@
 Scrapy Mini Project
 ===================
 
-This mini-project is simply a tutorial on how to build scrapy spiders, and is 
+This mini-project is simply a tutorial on how to build scrapy spiders, and is
 for most part a copy of the original excellent tutorial available at: `<https://docs.scrapy.org/en/latest/intro/tutorial.html>`_
 
 In this tutorial, we'll assume that Scrapy is already installed on your system.
 If that's not the case, please simply run `pip install scrapy`_.
 
-We are going to scrape `quotes.toscrape.com <http://quotes.toscrape.com/>`_, an 
+We are going to scrape `quotes.toscrape.com <http://quotes.toscrape.com/>`_, an
 synthetic website that lists quotes from famous authors.
 
 This tutorial will walk you through these tasks:
@@ -40,7 +40,7 @@ This will create a ``scrapy-mini-project`` directory with the following contents
             __init__.py
 
             items.py          # project items definition file
-            
+
             middlewares.py    # project middlewares file
 
             pipelines.py      # project pipelines file
@@ -727,9 +727,9 @@ What to Submit
 ==============
 
 In order to get this mini project marked as completed, you will need to share both
-the code you wrote by working alongside the tutorial, as well as the data scraped 
-using the 2 different kind of spiders (toscrape-css.py and toscrape-xpath.py) to 
-verify they are working as expected and generate the proper output. 
+the code you wrote by working alongside the tutorial, as well as the data scraped
+using the 2 different kind of spiders (toscrape-css.py and toscrape-xpath.py) to
+verify they are working as expected and generate the proper output.
 
 Make sure you execute the following 2 commands in order to capture the data scraped
 and save it as a JSON file:
@@ -741,7 +741,7 @@ Going further
 =============
 
 JSON files are great for gather raw data in an semi structured way to store it.
-However, what about if you wanted to search by tag, or by author, or be able to run a 
+However, what about if you wanted to search by tag, or by author, or be able to run a
 full-text search to find your favorite quote in the data you harvested? While you will
 learn on how to analyze data directly from raw JSON files, it is sometimes recommended
 to load your data into a more interactive backend for better exploration capabilities.
