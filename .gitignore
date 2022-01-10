@@ -11,7 +11,9 @@ Thumbs.db
 
 # Jupyter files #
 .ipynb_checkpoints
+one_step/
 */.ipynb_checkpoints/*
+training_checkpoints/
 
 # VSCode
 .vscode/*
