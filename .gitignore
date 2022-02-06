@@ -15,5 +15,7 @@ one_step/
 */.ipynb_checkpoints/*
 training_checkpoints/
 
+catboost_info/
+
 # VSCode
 .vscode/*
