@@ -19,3 +19,4 @@ catboost_info/
 
 # VSCode
 .vscode/*
+*.json.gz
