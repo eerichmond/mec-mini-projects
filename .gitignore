@@ -16,6 +16,7 @@ one_step/
 training_checkpoints/
 
 catboost_info/
+lightgbm_criteo.mml/
 
 # VSCode
 .vscode/*
