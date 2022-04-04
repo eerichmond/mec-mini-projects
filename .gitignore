@@ -17,7 +17,12 @@ training_checkpoints/
 
 catboost_info/
 lightgbm_criteo.mml/
+hybrid_model/
+hybrid_model_post_train/
 
 # VSCode
 .vscode/*
 *.json.gz
+combined_data.csv.zip
+*.npz
+*.pickle
